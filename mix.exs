@@ -25,7 +25,11 @@ defmodule HttpClientTest.Mixfile do
      {:plug, "~> 1.0"},
      {:ibrowse, "~> 4.4"},
      {:httpotion, "~> 3.0.2"},
-     {:httpoison, "~> 0.12"}
+     {:httpoison, "~> 0.12"},
+
+
+     # Dev dependencies
+     {:mix_docker, "~> 0.5.0"}
     ]
   end
 end
